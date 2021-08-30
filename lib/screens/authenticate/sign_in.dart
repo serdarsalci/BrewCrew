@@ -29,7 +29,7 @@ class _SignInState extends State<SignIn> {
               print('erros sign in ');
             } else {
               print('signed in ');
-              print(result);
+              print(result.uid);
             }
           },
         ),
